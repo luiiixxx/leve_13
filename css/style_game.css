@@ -1,0 +1,39 @@
+.container {
+    min-width: 700px;
+}
+
+.template-wrap {
+    width: 100%;
+}
+
+/*Footer game*/
+div .log {
+    width: 204px;
+    height: 38px;
+    float: left;
+    background: url(../TemplateData/logo.png) 0 0 no-repeat;
+}
+div .title {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    margin: 0 1px 0 0;
+    color: #333;
+    text-align: right;
+    font-size: 18px;
+}
+
+div .fullscreen {
+    float: right;
+}
+
+/*Game*/
+.gameContainer {
+    width: 100%;
+}
+/*Comments facebook*/
+.comments {
+    width: 100%;
+    background: #f2f2f2;
+}

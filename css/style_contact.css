@@ -1,0 +1,50 @@
+.title_Page {
+    text-align: center;
+    font-size: 35px;
+    line-height: 50px;
+    color: #232323;
+}
+
+
+.content_Art {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.image_group {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+}
+.teacher, .programmer, .graphic_designer, .school {
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 330px;
+}
+
+.name, .address {
+    margin-bottom: 5px;
+}
+
+.email, .address, .phone {
+    margin-top: 5px;
+}
+
+.field {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.answer {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+}

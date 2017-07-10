@@ -1,0 +1,52 @@
+.name, .description {
+    display: inline-block;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.title_Pag {
+    font-size: 40px;
+    text-align: center;
+    line-height: normal;
+    
+}
+
+.content_Art {
+    overflow: hidden;
+}
+
+.text_download {
+    font-size: 18px;
+    text-align: center;
+}
+
+.download {
+    display: block;
+    margin: auto;
+    width: 50%;
+    min-width: 200px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 75px;
+    background: #31ae1f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+    border-top: 4px solid #64fd1f;
+    border-bottom: 4px solid #1e8c03;
+    border-left: 4px solid #156c00;
+    border-right: 4px solid #47d009;
+}
+
+.download:hover {
+    transform: scale(1.05);
+    background-color: #272727;
+    border-top-color: #3d3d3d;
+    border-bottom-color: #000;
+    border-right-color: #2f2f2f;
+    border-left-color: #171717;
+}
